@@ -1,0 +1,48 @@
+<form action="API주소" method=""></form>
+	method 값에 
+		GET: 단순히 정보를 '읽고(read)' 싶을 때
+		POST: 사용자가 입력한 값을 '저장'하고 싶을 때
+
+	<input type="text">
+		attribute: placeholder="뒤에 기본으로 보여줄 값"
+			 maxlength="숫자"
+			 minlength="숫자"
+			 required 필수로 지정
+			 disabled 사용할 수 없게 막아두기
+			 value="기본값"
+
+	<input type="email"> ->서버에 보내기전에 미리 유효성 검사를 위해 사용(text와의 차이)
+	<input type="password">
+	<input type="url">
+	<input type="number">
+		attribute: min=""
+			 max=""
+	<input type="file">
+		attribute: accept=".png.",".jpg" 원하는 확장자만 첨부가능하게 하기
+	 
+	<label for="인풋id"></label> ->input의 이름을 달아주는 태그
+
+라디오 태그(동그라미 체크박스)
+	<input type="radio">
+		attribute: name="" (하나로 묶어주는 속성)
+			id=""
+			value="" (선택됐을 시, 서버에 넘겨주는 값)
+
+체크박스 태그
+	<input type="checkbox"> (중복 체크 가능)
+
+셀렉트 태그
+    <select name="frontendskills"> ->선택 리스트 만들기, 라디오 태그나 체크박스와 다르게 select에만 name을 줘도 된다.(이미 option이 종속되어 있기 때문)
+        attribute: multiple 삽입시 다중 선택 가능
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+    </select>
+
+textarea 태그(text와 달리 여러줄을 받을 수 있음)
+    <textarea></textarea>
+
+button 태그
+	<button type=""></button>
+		type attribute=button,submit(폼이 버튼을 제출하는 용도),  reset(잘 안씀, 다시쓰기)
+		

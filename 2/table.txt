@@ -1,0 +1,12 @@
+<table>
+	<thead> ->테이블 헤드를 더 명시적으로 표현
+		<tr> (하나의 가로줄 만들기 (ㅡ))
+			<th>테이블 헤더</th>
+			th attribute: scope="col"(가로줄에 대한 헤드) or "row" (세로줄에 대한 헤드)임을 명시해줌
+			<td>테이블 데이터</td>
+				td,th attribute: rowspan="숫자" (위아래로 셀 병합)
+					       colspan="숫자" (좌우로 셀 병합)
+					    
+		</tr>
+</table>
+	
