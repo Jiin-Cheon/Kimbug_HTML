@@ -1,0 +1,8 @@
+구조적 문서 설계란? 글의 구조를 쉽게 파악할 수 있도록 html을 작성
+상황에 맞는 적절한 sectioning 요소를 올바르게 사용하는 방법
+
+sectioning element : section, article, nav, aside
+	1. element 내에는 반드시 heading 태그를 작성해야한다.
+
+
+	1. main은 하나의 html 문서에서 하나의 main만 사용할 수 있다.
