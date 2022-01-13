@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="style.css"> -> CSS 불러오는 코드
+<a href="#" aria-label=""></a> -> 링크태그
+<script src="app.js"></script> -> </body> 바로위에!
+<img src="" alt="kimbug">
+
+자주 쓰는 태그
+<h1>, <div>, <span>, ,<p>, <ol>, <ul>, <li>, <button>, <strong>, <br>
+
+반응형 페이지를 위한 @media 쿼리
